@@ -22,3 +22,5 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+* https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers

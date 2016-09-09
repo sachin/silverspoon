@@ -63,14 +63,14 @@
 
 <div class="alert alert-danger" role="alert">
   <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
-  <span class="sr-only">Error:</span>
+  <span class="sr-only">Errorzzzz:</span>
   Enter a valid email address
 </div>
 <div class="row">
   <div class="col-sm-12 text-xs-center bootstrap-welcome">
-    <h1>Welcome <%= current_patron.email %></h1>
-    <p class="lead"><%= current_patron.type %></p>
-    <p><%= link_to 'logout', eval("destroy_#{current_patron.type.downcase}_session_path"), method: :delete %></p>
+    <h1>Welcome <%= current_user.email %></h1>
+    <p class="lead"><%= current_user.type %></p>
+    <p><%= link_to 'logout', eval("destroy_#{current_user.type.downcase}_session_path"), method: :delete %></p>
     <!-- Button trigger modal -->
     <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
       Launch demo modal
