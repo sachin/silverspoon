@@ -1,0 +1,98 @@
+<!-- Stack the columns on mobile by making one full-width and the other half-width -->
+<div class="row">
+  <div class="col-xs-12 col-md-8">.col-xs-12 .col-md-8</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+
+<!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+<div class="row">
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+  <div class="col-xs-6 col-md-4">.col-xs-6 .col-md-4</div>
+</div>
+
+<!-- Columns are always 50% wide, on mobile and desktop -->
+<div class="row">
+  <div class="col-xs-6">.col-xs-6</div>
+  <div class="col-xs-6">.col-xs-6</div>
+</div>
+<hr/>
+<div class="row">
+  <div class="col-xs">
+    1 of 2
+  </div>
+  <div class="col-xs">
+    1 of 2
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs">
+    1 of 3
+  </div>
+  <div class="col-xs">
+    1 of 3
+  </div>
+  <div class="col-xs">
+    1 of 3
+  </div>
+</div>
+<hr/>
+<div class="row">
+  <div class="col-xs">
+    1 of 3
+  </div>
+  <div class="col-xs-6">
+    2 of 3 (wider)
+  </div>
+  <div class="col-xs">
+    3 of 3
+  </div>
+</div>
+<div class="row">
+  <div class="col-xs">
+    1 of 3
+  </div>
+  <div class="col-xs-5">
+    2 of 3 (wider)
+  </div>
+  <div class="col-xs">
+    3 of 3
+  </div>
+</div>
+
+
+<div class="alert alert-danger" role="alert">
+  <span class="glyphicon glyphicon-exclamation-sign" aria-hidden="true"></span>
+  <span class="sr-only">Error:</span>
+  Enter a valid email address
+</div>
+<div class="row">
+  <div class="col-sm-12 text-xs-center bootstrap-welcome">
+    <h1>Welcome <%= current_patron.email %></h1>
+    <p class="lead"><%= current_patron.type %></p>
+    <p><%= link_to 'logout', eval("destroy_#{current_patron.type.downcase}_session_path"), method: :delete %></p>
+    <!-- Button trigger modal -->
+    <button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">
+      Launch demo modal
+    </button>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <h4 class="modal-title" id="myModalLabel">Modal title</h4>
+      </div>
+      <div class="modal-body">
+        ...
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button>
+      </div>
+    </div>
+  </div>
+</div>
