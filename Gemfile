@@ -58,3 +58,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 # active admin integration
 gem 'activeadmin', github: 'activeadmin' #refer https://github.com/activeadmin/activeadmin/issues/3926
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
+
+# invitation model integrated
+gem 'devise_invitable'

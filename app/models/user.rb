@@ -1,3 +1,3 @@
 class User < Patron
-  devise :registerable, :confirmable
+  devise :invitable, :registerable, :confirmable
 end
