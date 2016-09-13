@@ -62,3 +62,6 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'activeadmin', github: 'activeadmin' #refer https://github.com/activeadmin/activeadmin/issues/3926
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
+# for exception notifier
+gem 'exception_notification'
+

@@ -86,4 +86,13 @@ Rails.application.configure do
 
   #default url options
   config.action_mailer.default_url_options = { host: 'localhost', port: 3000 }
+
+  #exception notifier settings
+  Rails.application.config.middleware.use ExceptionNotification::Rack,
+                                          :email => {
+                                              :deliver_with => :deliver, # Rails >= 4.2.1 do not need this option since it defaults to :deliver_now
+                                              :email_prefix => "[PREFIX] ",
+                                              :sender_address => %{"notifier" <notifier@example.com>},
+                                              :exception_recipients => %w{exceptions@example.com}
+                                          }
 end
