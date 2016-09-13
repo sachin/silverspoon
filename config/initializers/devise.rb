@@ -136,7 +136,7 @@ Devise.setup do |config|
 
   # Flag that force a record to be valid before being actually invited
   # Default: false
-  # config.validate_on_invite = true
+  config.validate_on_invite = true
 
   # Resend invitation if user with invited status is invited again
   # Default: true
@@ -146,7 +146,6 @@ Devise.setup do |config|
   # the #invited_by association is declared to be polymorphic.
   # Default: nil
   # config.invited_by_class_name = 'User'
-  config.invited_by_class_name = 'Admin'
 
   # The foreign key to the inviting model (if invited_by_class_name is set)
   # Default: :invited_by_id

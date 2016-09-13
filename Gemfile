@@ -33,6 +33,9 @@ gem 'jbuilder', '~> 2.5'
 # for user authentication
 gem 'devise'
 
+# invitation model integrated
+gem 'devise_invitable'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
@@ -59,5 +62,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'activeadmin', github: 'activeadmin' #refer https://github.com/activeadmin/activeadmin/issues/3926
 gem 'inherited_resources', github: 'activeadmin/inherited_resources'
 
-# invitation model integrated
-gem 'devise_invitable'
