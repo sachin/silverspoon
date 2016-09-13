@@ -15,7 +15,7 @@ This Rails 5 (5.0.0.1) app integrated:
 
 * [Devise invitable] - for inviting the user from the admin panel to join the application.
 
-* [Bootstrap4] - for look and feel of application.
+* [Bootstrap4] - for look and feel of application with glyphicons.
 
 * [letter opener] - for view the content of email in the browser itself.
 
