@@ -29,7 +29,7 @@ This Rails 5 (5.0.0.1) app integrated:
 
 ## Development environment:
 
-* Ruby version (2.3.0)
+* Ruby version (2.3.0).
 
 * Rails 5 (5.0.0.1).
 
@@ -47,12 +47,13 @@ Admin Panel [admin panel]
 
 normal application [default]
 
-## External resources:
+## Start your application from rails5 skeleton
 
-* https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+To start your application from rails5 skeleton you need to export the code from rails5 skeleton repository.
 
-* http://guides.rubyonrails.org/asset_pipeline.html#asset-organization
-
+```sh
+$ git archive master | tar -x -C /somewhere/else
+```
 
    [Devise]: <https://github.com/plataformatec/devise>
 
