@@ -6,7 +6,7 @@
       </div>
       <div class="panel-body">
         <%= form_for(resource, as: resource_name, url: confirmation_path(resource_name), html: { method: :post, role: "form" }) do |f| %>
-            <%= devise_error_messages! %>
+            <%= devise_bootstrap_error_messages! %>
             <div class="form-group">
               <%= f.label :email %>
               <%= f.email_field :email, autofocus: true, value: (resource.pending_reconfirmation? ? resource.unconfirmed_email : resource.email), class: "form-control" %>

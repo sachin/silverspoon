@@ -6,7 +6,7 @@
       </div>
       <div class="panel-body">
         <%= form_for(resource, :as => resource_name, :url => invitation_path(resource_name), html: { method: :put, role: "form" }) do |f| %>
-            <%= devise_error_messages! %>
+            <%= devise_bootstrap_error_messages! %>
             <%= f.hidden_field :invitation_token %>
 
             <% if f.object.class.require_password_on_accepting %>

@@ -24,3 +24,5 @@ Things you may want to cover:
 * ...
 
 * https://github.com/guard/listen/wiki/Increasing-the-amount-of-inotify-watchers
+
+* http://guides.rubyonrails.org/asset_pipeline.html#asset-organization
