@@ -3,6 +3,10 @@
 This is bootstrap app for rails 5. It provides the basic integration of gems which is essential to starts the development of an application.
 like:- Devise authentication, Bootstrap4, active admin, exception notifier, letter opener, meta request, invite the users from admin panel.
 
+In this application i implement the **STI for the app users.** Patron is my parent model with common devise modules.
+* Admin: As name suggest admin controls the application, rather creating the users from admin panel sends the invitations to join the app.
+* User: application users with invitable, registerable and confirmable devise modules.
+
 This Rails 5 (5.0.0.1) app integrated:
 
 * [Devise] - for authentication.
