@@ -73,4 +73,4 @@ $ git archive master | tar -x -C /somewhere/else
 
    [admin panel]: <http://localhost:3000/admin/admins>
 
-   [default]: <http://localhost:3000/users/sign-in>
+   [default]: <http://localhost:3000/users/sign_in>
