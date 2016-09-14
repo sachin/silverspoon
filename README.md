@@ -1,4 +1,4 @@
-# Rails5 skeleton
+# Rails5 skeleton with Heroku
 
 This is bootstrap app for rails 5. It provides the basic integration of gems which is essential to starts the development of an application.
 like:- Devise authentication, Bootstrap4, active admin, exception notifier, letter opener, meta request, invite the users from admin panel.
@@ -35,7 +35,7 @@ This Rails 5 (5.0.0.1) app integrated:
 
 ## Setup
 
-copy all the config/*yml.example to config/*.yml and add the configurations for your database.
+Update database configurations in database.yml.
 
 ```sh
 bundle install
@@ -46,6 +46,21 @@ rails s
 Admin Panel [admin panel]
 
 normal application [default]
+
+## Live Demo
+
+1. For Users [Heroku].
+
+2. For Admins [HerokuAdminUrl]
+
+#### Credentials to login as admin
+```sh
+Email: admin@example.com
+Password: Welcome@123
+```
+
+
+
 
 ## Start your application from rails5 skeleton
 
@@ -73,4 +88,8 @@ $ git archive master | tar -x -C /somewhere/else
 
    [admin panel]: <http://localhost:3000/admin/admins>
 
-   [default]: <http://localhost:3000/users/sign_in>
+   [default]: <http://localhost:3000/users/sign-in>
+
+   [Heroku]: <https://rails5-skeleton.herokuapp.com/>
+
+   [HerokuAdminUrl]: <https://rails5-skeleton.herokuapp.com/admin/>
