@@ -2,6 +2,7 @@
 <div class="row">
   <div class="col-sm-12 text-xs-center bootstrap-welcome">
     <h1>Welcome <%= current_user.email %></h1>
+    <p><%= link_to 'edit profile', edit_user_registration_path(current_user) %></p>
     <p><%= link_to 'logout', eval("destroy_#{current_user.type.downcase}_session_path"), method: :delete %></p>
 
   </div>
