@@ -14,7 +14,7 @@ default: &default
   encoding: utf8
   pool: 5
   username: root
-  password:
+  password: password
   socket: /var/run/mysqld/mysqld.sock
 
 development:
@@ -52,3 +52,8 @@ production:
   database: skeleton_production
   username: skeleton
   password: <%= ENV['SKELETON_DATABASE_PASSWORD'] %>
+
+heroku:
+  adapter: postgresql
+  encoding: utf8
+  pool: 15

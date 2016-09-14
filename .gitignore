@@ -15,7 +15,9 @@
 /log/*.log
 /tmp
 dump.rdb
-config/*.yml
 test
 .idea/
 /public/assets/
+
+# Ignore application configuration
+/config/application.yml

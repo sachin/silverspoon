@@ -7,3 +7,7 @@ test:
 production:
   adapter: redis
   url: redis://localhost:6379/1
+
+heroku:
+  adapter: redis
+  url: <%= ENV['REDIS_HOST_URL'] %>
