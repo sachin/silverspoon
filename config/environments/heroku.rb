@@ -85,7 +85,7 @@ Rails.application.configure do
   config.active_record.dump_schema_after_migration = false
 
   #default url options
-  config.action_mailer.default_url_options = { host: 'rails5-skeleton.herokuapp.com' }
+  config.action_mailer.default_url_options = { host: 'rails5-silverspoon.herokuapp.com' }
 
   #smtp settings
   config.action_mailer.delivery_method = :smtp
@@ -106,6 +106,6 @@ Rails.application.configure do
                                               :deliver_with => :deliver, # Rails >= 4.2.1 do not need this option since it defaults to :deliver_now
                                               :email_prefix => "[PREFIX] ",
                                               :sender_address => %{"notifier" <notifier@example.com>},
-                                              :exception_recipients => %w{exceptions@example.com}
+                                              :exception_recipients => %w{sachin238@gmail.com}
                                           }
 end
