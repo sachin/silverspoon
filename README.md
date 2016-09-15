@@ -90,6 +90,6 @@ $ git archive master | tar -x -C /somewhere/else
 
    [default]: <http://localhost:3000/users/sign_in>
 
-   [Heroku]: <https://rails5-skeleton.herokuapp.com/>
+   [Heroku]: <https://rails5-silverspoon.herokuapp.com/>
 
-   [HerokuAdminUrl]: <https://rails5-skeleton.herokuapp.com/admin/>
+   [HerokuAdminUrl]: <https://rails5-silverspoon.herokuapp.com/admin/>
