@@ -1,6 +1,6 @@
-# Rails5 skeleton with Heroku
+# silverspoon
 
-This is bootstrap app for rails 5. It provides the basic integration of gems which is essential to starts the development of an application.
+silverspoon is for the developers who wants to start Rails5 app. With the very basic requirements likes devise, admin panel, bootstrap4 and many more. It provides the basic integration of gems which is essential to starts the development of an application.
 like:- Devise authentication, Bootstrap4, active admin, exception notifier, letter opener, meta request, invite the users from admin panel.
 
 In this application i implement the **STI for the app users.** Patron is my parent model with common devise modules.
