@@ -69,16 +69,6 @@ Password: Welcome@123
 ```
 
 
-
-
-## Start your application from rails5 skeleton
-
-To start your application from rails5 skeleton you need to export the code from rails5 skeleton repository.
-
-```sh
-$ git archive master | tar -x -C /somewhere/else
-```
-
    [Devise]: <https://github.com/plataformatec/devise>
 
    [Active Admin]: <https://github.com/activeadmin/activeadmin>
