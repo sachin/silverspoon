@@ -23,7 +23,7 @@ This Rails 5 (5.0.0.1) app integrated:
 
 * Flash messages display.
 
-* [meta_request]- for development (for google crome [rails panel])
+* [meta_request]- for development (for google chrome [rails panel])
 
 * .gitignore for rails app.
 
