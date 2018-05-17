@@ -27,7 +27,7 @@ ActiveAdmin.register User do
   filter :current_sign_in_at
   filter :sign_in_count
   filter :created_at
-  filter :invited_by_id, :as => :select, :collection => Admin.all.collect{|admin| [admin.email, admin.id]}
+  filter :invited_by_id, :as => :select, :collection => proc { Admin.all.collect{|admin| [admin.email, admin.id]}}
 
   form do |f|
     f.inputs "Invite User #{current_admin.inspect}" do
